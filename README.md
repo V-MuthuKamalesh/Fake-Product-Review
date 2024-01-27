@@ -13,7 +13,9 @@ The objective for fake product review detection is to implement a comprehensive 
 ## Proposed System
 I have used the Machine Learning Model named Support Vector Machine(**SVM**) which gives more accuracy than other models. Support Vector Machines (SVM) is a powerful machine learning technique employed in the realm of fake product review detection. SVM operates by mapping input data into a high-dimensional space and finding the optimal hyperplane that best separates different classes. In the context of detecting fake reviews, SVM analyzes various features extracted from textual content, such as sentiment, word frequency, and linguistic patterns. By training on labeled datasets that distinguish between genuine and deceptive reviews, SVM learns to generalize and classify unseen data effectively. Its ability to handle high-dimensional feature spaces and nonlinear relationships makes SVM particularly suitable for discerning subtle patterns indicative of fraudulent product feedback. This robust approach aids in enhancing the accuracy and reliability of fake review detection systems, contributing to more trustworthy consumer evaluations in the online marketplace.
 
-![WhatsApp Image 2024-01-04 at 07 53 15_3e68d37b](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/5ef4cb0d-9af0-4f61-b8fd-d678358394d7)
+![WhatsApp Image 2024-01-04 at 07 53 23_4b932bd3](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/a81e2a77-3fbb-4473-b3be-7a1d95cd83ed)
+
+![WhatsApp Image 2024-01-04 at 07 55 17_1ac0ddaf](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/61c821d7-d353-4803-b761-042d4c4f403a)
 
 ## Setup
 
