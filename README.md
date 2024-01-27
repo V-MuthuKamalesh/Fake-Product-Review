@@ -24,3 +24,5 @@ I have used the Machine Learning Model named Support Vector Machine(**SVM**) whi
 ```from sklearnex import patch_sklearn```
 
 ```patch_sklearn()```
+
+![WhatsApp Image 2024-01-04 at 07 53 15_3e68d37b](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/5ef4cb0d-9af0-4f61-b8fd-d678358394d7)
