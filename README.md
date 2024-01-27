@@ -23,4 +23,4 @@ I have used the Machine Learning Model named Support Vector Machine(**SVM**) whi
 
 ```from sklearnex import patch_sklearn```
 
-    ```patch_sklearn()```
+```patch_sklearn()```
