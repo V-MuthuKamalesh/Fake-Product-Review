@@ -2,6 +2,8 @@
 # Introduction
 
 In the era of online shopping, the reliability of product reviews plays a crucial role in assisting consumers with informed purchasing decisions. However, the proliferation of fake product reviews poses a significant challenge to the authenticity and trustworthiness of online reviews. This research focuses on the development of a robust machine learning-based system for the detection of fake product reviews. The proposed solution contributes to the ongoing efforts in creating a trustworthy online shopping environment by empowering consumers with reliable information and assisting online platforms in maintaining the integrity of their review systems.
+
+Youtube Video Link:https://youtube.com/shorts/Y_YkDak-PI8?feature=shared
 ## Objectives
 The objective for fake product review detection is to implement a comprehensive and sophisticated system utilizing machine learning algorithms, and user behavior analysis to accurately identify and filter out deceptive reviews. The system aims to analyze only textual content and user profiles for inconsistencies. Continuous learning mechanisms ensure adaptability to evolving fraudulent tactics, while potential collaboration with online platforms and the integration of user authentication mechanisms further enhance the overall effectiveness of the detection system, fostering a more trustworthy and transparent online review ecosystem.
 ## oneAPI
