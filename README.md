@@ -16,7 +16,11 @@ I have used the Machine Learning Model named Support Vector Machine(**SVM**) whi
 ## Setup
 
 ```import pandas as pd```
+
 ```pip install scikit-learn```
+
 ```pip install gradio```
+
 ```from sklearnex import patch_sklearn```
+
     ```patch_sklearn()```
