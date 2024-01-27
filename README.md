@@ -17,6 +17,8 @@ I have used the Machine Learning Model named Support Vector Machine(**SVM**) whi
 
 ![WhatsApp Image 2024-01-04 at 07 55 17_1ac0ddaf](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/61c821d7-d353-4803-b761-042d4c4f403a)
 
+https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/32e84182-befa-4cc2-9fe2-9a3154997dfd
+
 ## Setup
 
 ```import pandas as pd```
