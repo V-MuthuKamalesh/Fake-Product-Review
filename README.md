@@ -18,6 +18,7 @@ Results and Discussion<br/>
 ## Introduction
 
 In the era of online shopping, the reliability of product reviews plays a crucial role in assisting consumers with informed purchasing decisions. However, the proliferation of fake product reviews poses a significant challenge to the authenticity and trustworthiness of online reviews. This research focuses on the development of a robust machine learning-based system for the detection of fake product reviews. The proposed solution contributes to the ongoing efforts in creating a trustworthy online shopping environment by empowering consumers with reliable information and assisting online platforms in maintaining the integrity of their review systems.<br/>
+
 **Project PPT:** [intel project ppt.pptx](https://github.com/V-MuthuKamalesh/Fake-Product-Review/files/14085973/intel.project.ppt.pptx)
 
 **Youtube Video Link:** https://youtube.com/shorts/Y_YkDak-PI8?feature=shared
