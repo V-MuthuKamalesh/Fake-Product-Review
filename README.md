@@ -79,7 +79,19 @@ The interface provides real-time feedback, instantly displaying the model's clas
 https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/32e84182-befa-4cc2-9fe2-9a3154997dfd
 
 ## Setup
+1.Open IntelPrjFinal.ipynb file in Jupyter notebook.
 
+2.Upload the dataset DatasetIntel.csv in the Jupyter notebook.
+
+The coding is provided to perform the below in IntelPrjFinal.ipynb:
+
+i.Explore the data
+
+ii.Train the machine learning model
+
+iii.Launch the Gradio interface for real-time predictions
+
+**Before running the code run the following commands to install the necessary dependencies**
 ```import pandas as pd```
 
 ```pip install scikit-learn```
