@@ -26,6 +26,8 @@ The objective for fake product review detection is to implement a comprehensive 
 The oneAPI AI Analytics Toolkit [1] is implemented using the oneAPI Data Analytics Library (oneDAL), a powerful machine learning library that helps speed up big data analysis. oneDAL is an extension of Intel® Data Analytics Acceleration Library (DAAL) and is a part of oneAPI. oneAPI is a cross-industry, open, standards-based unified programming model that delivers a common developer experience across accelerator architectures. 
 
 ## oneAPI Optimization
+![image](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/7ba2d794-4308-4312-8ce5-49ce595c74c0)
+
  I have used **oneAPI** which provides enhancement to ML models using oneAPI libraries for low-level compute optimizations. Optimizing machine learning models using Intel's OneAPI involves focusing on key areas to enhance overall performance. First and foremost, leverage optimized libraries such as oneDAL to efficiently execute deep learning operations. Implement the Data Parallel C++ (DPC++) programming model to tap into parallel processing capabilities across diverse architectures, including CPUs, GPUs, and accelerators. Explore offloading computationally intensive tasks to GPUs using OneAPI's capabilities, leading to significant speed improvements. Prioritize memory optimization strategies, including data layout optimizations, minimizing data movement, and utilizing cache-friendly data structures. Investigate quantization techniques to reduce precision and computational demands. Additionally, consider model pruning to eliminate unnecessary parameters and connections, thus streamlining computations. Use profiling tools to identify and address performance bottlenecks effectively. Finally, stay updated with the latest software and driver releases and engage with Intel's support resources for targeted guidance in optimizing specific areas of your machine learning workflow.
  
 ## Proposed System
@@ -91,7 +93,7 @@ ii.Train the machine learning model
 
 iii.Launch the Gradio interface for real-time predictions
 
-**Before running the code run the following commands to install the necessary dependencies**
+**Before running the code run the following commands to install the necessary dependencies**<br/>
 ```import pandas as pd```
 
 ```pip install scikit-learn```
