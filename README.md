@@ -1,5 +1,5 @@
 # Fake Product Review Detection
-The goal of this project is to develop a system that can accurately classify product reviews as either genuine or fake. This is achieved by training a Support Vector Machine (SVM) model on a labeled dataset of reviews. The project integrates a Gradio interface for user interaction, allowing users to input reviews and receive the model's classification output.
+The goal of this project is to develop a system that can accurately classify product reviews as either genuine or fake. This is achieved by training a Support Vector Machine (SVM) model on a labeled dataset of reviews. The project integrates a Gradio interface for user interaction, allowing users to input reviews and receive the model's classification output.<br/>
 ![image](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/827f8d0b-297f-4ed6-a248-ea8877d56781)
 
 ## Table of contents
@@ -17,7 +17,7 @@ Results and Discussion<br/>
 
 ## Introduction
 
-In the era of online shopping, the reliability of product reviews plays a crucial role in assisting consumers with informed purchasing decisions. However, the proliferation of fake product reviews poses a significant challenge to the authenticity and trustworthiness of online reviews. This research focuses on the development of a robust machine learning-based system for the detection of fake product reviews. The proposed solution contributes to the ongoing efforts in creating a trustworthy online shopping environment by empowering consumers with reliable information and assisting online platforms in maintaining the integrity of their review systems.
+In the era of online shopping, the reliability of product reviews plays a crucial role in assisting consumers with informed purchasing decisions. However, the proliferation of fake product reviews poses a significant challenge to the authenticity and trustworthiness of online reviews. This research focuses on the development of a robust machine learning-based system for the detection of fake product reviews. The proposed solution contributes to the ongoing efforts in creating a trustworthy online shopping environment by empowering consumers with reliable information and assisting online platforms in maintaining the integrity of their review systems.<br/>
 [intel project ppt.pptx](https://github.com/V-MuthuKamalesh/Fake-Product-Review/files/14085973/intel.project.ppt.pptx)
 
 **Youtube Video Link:** https://youtube.com/shorts/Y_YkDak-PI8?feature=shared
