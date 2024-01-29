@@ -1,19 +1,19 @@
 # Fake Product Review Detection
 The goal of this project is to develop a system that can accurately classify product reviews as either genuine or fake. This is achieved by training a Support Vector Machine (SVM) model on a labeled dataset of reviews. The project integrates a Gradio interface for user interaction, allowing users to input reviews and receive the model's classification output.
-# Table of contents
-*Introduction
-*Objectives
-*oneAPI
-*oneAPI Optimization
-*Proposed System 
-*Key Components
-*Workflow
-*Output
-*Video Explanation
-*Setup
-*Results and Discussion
+## Table of contents
+*Introduction<br/>
+*Objectives<br/>
+*oneAPI<br/>
+*oneAPI Optimization<br/>
+*Proposed System <br/>
+*Key Components<br/>
+*Workflow<br/>
+*Output<br/>
+*Video Explanation<br/>
+*Setup<br/>
+*Results and Discussion<br/>
 
-# Introduction
+## Introduction
 
 In the era of online shopping, the reliability of product reviews plays a crucial role in assisting consumers with informed purchasing decisions. However, the proliferation of fake product reviews poses a significant challenge to the authenticity and trustworthiness of online reviews. This research focuses on the development of a robust machine learning-based system for the detection of fake product reviews. The proposed solution contributes to the ongoing efforts in creating a trustworthy online shopping environment by empowering consumers with reliable information and assisting online platforms in maintaining the integrity of their review systems.
 
@@ -31,53 +31,53 @@ The oneAPI AI Analytics Toolkit [1] is implemented using the oneAPI Data Analyti
 ## Proposed System
 I have used the Machine Learning Model named Support Vector Machine(**SVM**) which gives more accuracy than other models. Support Vector Machines (SVM) is a powerful machine learning technique employed in the realm of fake product review detection. SVM operates by mapping input data into a high-dimensional space and finding the optimal hyperplane that best separates different classes. In the context of detecting fake reviews, SVM analyzes various features extracted from textual content, such as sentiment, word frequency, and linguistic patterns. By training on labeled datasets that distinguish between genuine and deceptive reviews, SVM learns to generalize and classify unseen data effectively. Its ability to handle high-dimensional feature spaces and nonlinear relationships makes SVM particularly suitable for discerning subtle patterns indicative of fraudulent product feedback. This robust approach aids in enhancing the accuracy and reliability of fake review detection systems, contributing to more trustworthy consumer evaluations in the online marketplace.
 
-# Key Components
-## Dataset:
+## Key Components
+### Dataset:
 
-A labeled dataset containing genuine and fake product reviews is used for training the SVM model.
+A labeled dataset containing genuine and fake product reviews is used for training the SVM model.<br/>
 Each review in the dataset is associated with a binary label indicating whether it is genuine or fake.
 
-## Support Vector Machine (SVM) Model:
+### Support Vector Machine (SVM) Model:
 
-SVM is a supervised machine learning algorithm that is well-suited for classification tasks.
-The model is trained on the features extracted from the text of product reviews.
+SVM is a supervised machine learning algorithm that is well-suited for classification tasks.<br/>
+The model is trained on the features extracted from the text of product reviews.<br/>
 Features may include word embeddings, bag-of-words representation, or TF-IDF scores.
 
-## Gradio Interface:
+### Gradio Interface:
 
-Gradio is a Python library that simplifies the development of user interfaces for machine learning models.
-The interface allows users to input product reviews and see the model's classification output in real-time.
+Gradio is a Python library that simplifies the development of user interfaces for machine learning models.<br/>
+The interface allows users to input product reviews and see the model's classification output in real-time.<br/>
 It provides an interactive and user-friendly experience for both input and output.
 
-# Workflow:
+## Workflow:
 
-## Training Phase:
+### Training Phase:
 
-The SVM model is trained using the labeled dataset, learning the patterns and characteristics of genuine and fake reviews.
+The SVM model is trained using the labeled dataset, learning the patterns and characteristics of genuine and fake reviews.<br/>
 Feature extraction methods are applied to represent the reviews in a format suitable for SVM training.
 
-## Integration with Gradio:
+### Integration with Gradio:
 
-Gradio interface is implemented to take user input in the form of a product review.
-The input is processed and fed into the trained SVM model for classification.
+Gradio interface is implemented to take user input in the form of a product review.<br/>
+The input is processed and fed into the trained SVM model for classification.<br/>
 The model's output, indicating whether the review is genuine or fake, is displayed to the user.
 
-## User Interaction:
+### User Interaction:
 
-Users interact with the Gradio interface by inputting product reviews of their choice.
+Users interact with the Gradio interface by inputting product reviews of their choice.<br/>
 The interface provides real-time feedback, instantly displaying the model's classification results.
 
-# Output
+## Output
 ##Gradio Interface
 ![WhatsApp Image 2024-01-04 at 07 53 23_4b932bd3](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/a81e2a77-3fbb-4473-b3be-7a1d95cd83ed)
 
 ![WhatsApp Image 2024-01-04 at 07 55 17_1ac0ddaf](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/61c821d7-d353-4803-b761-042d4c4f403a)
 
 
-# Video Explanation
+## Video Explanation
 https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/32e84182-befa-4cc2-9fe2-9a3154997dfd
 
-# Setup
+## Setup
 
 ```import pandas as pd```
 
@@ -88,15 +88,15 @@ https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/32e84182
 ```from sklearnex import patch_sklearn```
 
 ```patch_sklearn()```
-# Results and Discussion
+## Results and Discussion
  ![image](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/4c56aa0c-8b10-4567-b414-162910719d64)
 
-## Accuracy for Various ML Models
-Naive Bayes-81%
-SVM-90%
-Logistic Regression-88%
-Random Forest-86%
-Decision Tree-77%
+### Accuracy for Various ML Models
+Naive Bayes-81%<br/>
+SVM-90%<br/>
+Logistic Regression-88%<br/>
+Random Forest-86%<br/>
+Decision Tree-77%<br/>
 
 From the above bar chart its evident that SVM is much better than other models for this dataset as SVM gives the accuracy of 90% where all other models produce accuracy below 90%.The ONEAPI reduced the overall runtime and GPU usage significantly compared to normal platforms.
 
