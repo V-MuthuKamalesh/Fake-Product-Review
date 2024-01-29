@@ -1,23 +1,23 @@
 # Fake Product Review Detection
 The goal of this project is to develop a system that can accurately classify product reviews as either genuine or fake. This is achieved by training a Support Vector Machine (SVM) model on a labeled dataset of reviews. The project integrates a Gradio interface for user interaction, allowing users to input reviews and receive the model's classification output.
 ## Table of contents
-*Introduction<br/>
-*Objectives<br/>
-*oneAPI<br/>
-*oneAPI Optimization<br/>
-*Proposed System <br/>
-*Key Components<br/>
-*Workflow<br/>
-*Output<br/>
-*Video Explanation<br/>
-*Setup<br/>
-*Results and Discussion<br/>
+Introduction<br/>
+Objectives<br/>
+oneAPI<br/>
+oneAPI Optimization<br/>
+Proposed System <br/>
+Key Components<br/>
+Workflow<br/>
+Output<br/>
+Video Explanation<br/>
+Setup<br/>
+Results and Discussion<br/>
 
 ## Introduction
 
 In the era of online shopping, the reliability of product reviews plays a crucial role in assisting consumers with informed purchasing decisions. However, the proliferation of fake product reviews poses a significant challenge to the authenticity and trustworthiness of online reviews. This research focuses on the development of a robust machine learning-based system for the detection of fake product reviews. The proposed solution contributes to the ongoing efforts in creating a trustworthy online shopping environment by empowering consumers with reliable information and assisting online platforms in maintaining the integrity of their review systems.
 
-Youtube Video Link:https://youtube.com/shorts/Y_YkDak-PI8?feature=shared
+**Youtube Video Link:** https://youtube.com/shorts/Y_YkDak-PI8?feature=shared
 ## Objectives
 The objective for fake product review detection is to implement a comprehensive and sophisticated system utilizing machine learning algorithms, and user behavior analysis to accurately identify and filter out deceptive reviews. The system aims to analyze only textual content and user profiles for inconsistencies. Continuous learning mechanisms ensure adaptability to evolving fraudulent tactics, while potential collaboration with online platforms and the integration of user authentication mechanisms further enhance the overall effectiveness of the detection system, fostering a more trustworthy and transparent online review ecosystem.
 ## oneAPI
@@ -68,9 +68,10 @@ Users interact with the Gradio interface by inputting product reviews of their c
 The interface provides real-time feedback, instantly displaying the model's classification results.
 
 ## Output
-##Gradio Interface
+### Gradio Interface
+#### Genuine Review
 ![WhatsApp Image 2024-01-04 at 07 53 23_4b932bd3](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/a81e2a77-3fbb-4473-b3be-7a1d95cd83ed)
-
+#### Fake Review
 ![WhatsApp Image 2024-01-04 at 07 55 17_1ac0ddaf](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/61c821d7-d353-4803-b761-042d4c4f403a)
 
 
