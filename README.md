@@ -37,6 +37,9 @@ The oneAPI AI Analytics Toolkit [1] is implemented using the oneAPI Data Analyti
 ## Proposed System
 I have used the Machine Learning Model named Support Vector Machine(**SVM**) which gives more accuracy than other models. Support Vector Machines (SVM) is a powerful machine learning technique employed in the realm of fake product review detection. SVM operates by mapping input data into a high-dimensional space and finding the optimal hyperplane that best separates different classes. In the context of detecting fake reviews, SVM analyzes various features extracted from textual content, such as sentiment, word frequency, and linguistic patterns. By training on labeled datasets that distinguish between genuine and deceptive reviews, SVM learns to generalize and classify unseen data effectively. Its ability to handle high-dimensional feature spaces and nonlinear relationships makes SVM particularly suitable for discerning subtle patterns indicative of fraudulent product feedback. This robust approach aids in enhancing the accuracy and reliability of fake review detection systems, contributing to more trustworthy consumer evaluations in the online marketplace.
 
+# Flow Chart
+![WhatsApp Image 2024-01-29 at 21 11 32_e4e25e73](https://github.com/V-MuthuKamalesh/Fake-Product-Review/assets/156059656/6a6b9543-bb39-448e-8323-33f4d75658ff)
+
 ## Key Components
 ### Dataset:
 
